@@ -1,0 +1,37 @@
+# Java specific
+/bin/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Eclipse specific
+.metadata
+tmp/
+*.tmp
+local.properties
+.settings/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# sbteclipse plugin
+.target
+
+# Gradle specific
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
