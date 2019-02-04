@@ -20,6 +20,9 @@ eclipse {
 jar {
     baseName = 'program_exercise'
 	version = '0.0.1'
+	manifest {
+		attributes('Main-Class': 'com.example.Application')
+	}
 }
 
 sourceCompatibility = 1.8

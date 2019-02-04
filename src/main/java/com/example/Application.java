@@ -10,11 +10,6 @@ import com.example.utils.ActivitiesUtils;
 public class Application {
 	
 	public static void main(String... args) {
-//		String mockfileName = "activities.txt";
-//		String mockNumberOfTeams = "2";
-//		args = new String[2];
-//		args[0] = mockfileName;
-//		args[1] = mockNumberOfTeams;
 		if (args.length == 2) {
 			String filename = args[0];
 			String numberOfTeams = args[1];
